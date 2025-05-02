@@ -2,10 +2,16 @@ services:
   # Web service for the dashboard
   - type: web
     name: miku-bot-dashboard
-    env: python
+    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn --bind 0.0.0.0:$PORT main:app
+    plan: free
+    branch: main
+    repo: https://github.com/your-username/miku-bot
+    autoDeploy: true
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
       - key: TELEGRAM_BOT_TOKEN
         sync: false
       - key: TARGET_CHANNEL
@@ -24,10 +30,16 @@ services:
   # Worker service for the bot
   - type: worker
     name: miku-bot-worker
-    env: python
+    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: python run_miku_bot_standalone.py
+    plan: free
+    branch: main
+    repo: https://github.com/your-username/miku-bot
+    autoDeploy: true
     envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
       - key: TELEGRAM_BOT_TOKEN
         sync: false
       - key: TARGET_CHANNEL
