@@ -34,4 +34,10 @@ if __name__ == '__main__' and not IS_GUNICORN:
     # Run the Flask app if not in the bot workflow
     if not IS_RUN_MIKU_BOT:
         print("Starting web server in standalone mode...")
-        flask_app.run(host='0.0.0.0', port=5000)
+        port = int(os.environ.get("PORT", 5000))
+        flask_app.run(host='0.0.0.0', port=port)
+
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
