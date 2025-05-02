@@ -1,0 +1,626 @@
+2025-05-02 16:02:29,982 - miku_bot - ERROR - BOT_TOKEN is missing! Set it in your environment variables.
+2025-05-02 16:07:28,492 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:07:28,737 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:07:28,824 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:07:28,956 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:07:29,161 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:07:29,247 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:07:29,391 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:07:29,517 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:07:29,518 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:07:29,518 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:07:29,519 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:07:29,520 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:07:29,520 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:07:29,521 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:07:29,522 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:07:29,522 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:07:29,522 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:07:30,029 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:07:30,589 - miku_bot - INFO - Sent welcome message to user 1159603709
+2025-05-02 16:07:34,481 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:07:34 UTC)" (scheduled at 2025-05-02 16:07:34.479214+00:00)
+2025-05-02 16:10:11,195 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:10:11,435 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:10:11,515 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:10:11,866 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:10:12,031 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:10:12,117 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:10:12,233 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:10:12,336 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:10:12,337 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:10:12,337 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:10:12,337 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:10:12,338 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:10:12,338 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:10:12,338 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:10:12,338 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:10:12,338 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:10:12,339 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:10:12,819 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:10:17,319 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:10:17 UTC)" (scheduled at 2025-05-02 16:10:17.318517+00:00)
+2025-05-02 16:10:17,822 - handlers - INFO - Downloading image from: https://safebooru.org/images/3637/d2c116aa1ac4a604...
+2025-05-02 16:10:18,083 - handlers - INFO - Image downloaded successfully to: /tmp/tmpdg92bg63.jpg
+2025-05-02 16:10:20,508 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:10:20,521 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:20:17 UTC)" executed successfully
+2025-05-02 16:10:42,338 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:11:42 UTC)" (scheduled at 2025-05-02 16:10:42.337581+00:00)
+2025-05-02 16:10:42,819 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:11:42 UTC)" executed successfully
+2025-05-02 16:11:12,337 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:14:12 UTC)" (scheduled at 2025-05-02 16:11:12.337337+00:00)
+2025-05-02 16:11:13,596 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:11:14,174 - handlers - INFO - Downloading image from: https://i.redd.it/a1x8ybpgiwwe1.jpeg...
+2025-05-02 16:11:14,241 - handlers - INFO - Image downloaded successfully to: /tmp/tmp6w784_hw.jpg
+2025-05-02 16:11:15,084 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:11:15,093 - scheduler - INFO - Posted Reddit content: 1k7bdwu
+2025-05-02 16:11:15,093 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:14:12 UTC)" executed successfully
+2025-05-02 16:11:42,338 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:12:42 UTC)" (scheduled at 2025-05-02 16:11:42.337581+00:00)
+2025-05-02 16:11:42,897 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:12:42 UTC)" executed successfully
+2025-05-02 16:12:23,856 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2025-05-02 16:12:23,857 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-02 16:12:27,647 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:12:27,913 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:12:27,995 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:12:28,209 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:12:28,395 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:12:28,479 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:12:28,578 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:12:28,673 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:28,673 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:28,673 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:28,674 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:12:28,674 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:12:29,153 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:12:33,653 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:12:33 UTC)" (scheduled at 2025-05-02 16:12:33.652170+00:00)
+2025-05-02 16:12:34,476 - handlers - INFO - Downloading image from: https://safebooru.org/images/3713/593b7552c0850078...
+2025-05-02 16:12:34,696 - handlers - INFO - Image downloaded successfully to: /tmp/tmpj8dwrtku.jpg
+2025-05-02 16:12:36,092 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:12:36,105 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:22:33 UTC)" executed successfully
+2025-05-02 16:12:38,414 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2025-05-02 16:12:38,415 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-02 16:12:42,058 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:12:42,732 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:12:42,814 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:12:42,953 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:12:43,158 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:12:43,249 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:12:43,404 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:12:43,510 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:43,510 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:43,511 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:43,511 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:12:43,511 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:12:43,511 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:12:43,512 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:12:43,512 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:12:43,512 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:12:43,512 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:12:43,993 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:12:48,488 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:12:48 UTC)" (scheduled at 2025-05-02 16:12:48.487482+00:00)
+2025-05-02 16:12:49,000 - handlers - INFO - Downloading image from: https://safebooru.org/images/3762/aed72bc042b469f4...
+2025-05-02 16:12:49,262 - handlers - INFO - Image downloaded successfully to: /tmp/tmp271axfzw.jpg
+2025-05-02 16:12:50,899 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:12:50,913 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:22:48 UTC)" executed successfully
+2025-05-02 16:13:13,512 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:14:13 UTC)" (scheduled at 2025-05-02 16:13:13.511198+00:00)
+2025-05-02 16:13:14,020 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:14:13 UTC)" executed successfully
+2025-05-02 16:13:43,511 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:16:43 UTC)" (scheduled at 2025-05-02 16:13:43.510952+00:00)
+2025-05-02 16:13:44,635 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:13:45,105 - handlers - INFO - Downloading image from: https://i.redd.it/0aadve5wipwe1.jpeg...
+2025-05-02 16:13:45,191 - handlers - INFO - Image downloaded successfully to: /tmp/tmpt_fkdfha.jpg
+2025-05-02 16:13:45,855 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:13:45,867 - scheduler - INFO - Posted Reddit content: 1k6j6dt
+2025-05-02 16:13:45,867 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:16:43 UTC)" executed successfully
+2025-05-02 16:14:13,511 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:15:13 UTC)" (scheduled at 2025-05-02 16:14:13.511198+00:00)
+2025-05-02 16:14:14,021 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:15:13 UTC)" executed successfully
+2025-05-02 16:15:13,511 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:16:13 UTC)" (scheduled at 2025-05-02 16:15:13.511198+00:00)
+2025-05-02 16:15:13,963 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:16:13 UTC)" executed successfully
+2025-05-02 16:15:18,335 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2025-05-02 16:15:18,336 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-02 16:15:24,210 - miku_bot - ERROR - Failed to import required modules: cannot import name 'MIKU_SUBREDDITS' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:16:00,046 - miku_bot - ERROR - Failed to import required modules: cannot import name 'WAIFU_PICS_API' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:16:38,353 - miku_bot - ERROR - Failed to import required modules: cannot import name 'ANIME_PICS_API' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:17:25,830 - miku_bot - ERROR - Failed to import required modules: cannot import name 'ANIME_PICS_API' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:18:21,358 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:18:21,359 - miku_bot - ERROR - Failed to import required modules: cannot import name 'HISTORY_FILE' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:18:29,000 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:18:29,001 - miku_bot - ERROR - Failed to import required modules: cannot import name 'HISTORY_FILE' from 'config' (/home/runner/workspace/config.py)
+2025-05-02 16:18:48,776 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:18:49,059 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:18:49,173 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:18:49,268 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:18:49,367 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:18:49,506 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:18:49,608 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:18:49,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:18:49,652 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:18:49,652 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:18:49,652 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:18:49,652 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:18:49,653 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:18:49,653 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:18:49,653 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:18:49,653 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:18:49,653 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:18:50,162 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:18:54,609 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:18:54 UTC)" (scheduled at 2025-05-02 16:18:54.608631+00:00)
+2025-05-02 16:18:55,814 - handlers - INFO - Downloading image from: https://safebooru.org/images/1540/59c9b4b5ccb1eded...
+2025-05-02 16:18:56,049 - handlers - INFO - Image downloaded successfully to: /tmp/tmpm8rmfea9.jpg
+2025-05-02 16:18:57,669 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:18:57,694 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:28:54 UTC)" executed successfully
+2025-05-02 16:19:19,653 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:20:19 UTC)" (scheduled at 2025-05-02 16:19:19.652535+00:00)
+2025-05-02 16:19:20,234 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:20:19 UTC)" executed successfully
+2025-05-02 16:19:49,652 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:22:49 UTC)" (scheduled at 2025-05-02 16:19:49.652346+00:00)
+2025-05-02 16:19:50,147 - handlers - INFO - Downloading image from: https://i.redd.it/hiws4kt1ziwe1.jpeg...
+2025-05-02 16:19:50,201 - handlers - INFO - Image downloaded successfully to: /tmp/tmp1xhojapr.jpg
+2025-05-02 16:19:50,709 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:19:50,726 - scheduler - INFO - Posted Reddit content: 1k5s252
+2025-05-02 16:19:50,726 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:22:49 UTC)" executed successfully
+2025-05-02 16:20:19,653 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:21:19 UTC)" (scheduled at 2025-05-02 16:20:19.652535+00:00)
+2025-05-02 16:20:20,148 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:21:19 UTC)" executed successfully
+2025-05-02 16:21:19,653 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:22:19 UTC)" (scheduled at 2025-05-02 16:21:19.652535+00:00)
+2025-05-02 16:21:20,135 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:22:19 UTC)" executed successfully
+2025-05-02 16:21:33,748 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2025-05-02 16:21:33,750 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-02 16:21:39,833 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:21:40,081 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:21:40,193 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:21:40,285 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:21:40,496 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:21:40,624 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd3s04
+2025-05-02 16:21:40,716 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:21:40,739 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:21:40,739 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:21:40,740 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:21:40,740 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:21:40,740 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:21:40,740 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:21:40,740 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:21:40,741 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:21:40,741 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:21:40,741 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:21:41,222 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:21:45,717 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:21:45 UTC)" (scheduled at 2025-05-02 16:21:45.716807+00:00)
+2025-05-02 16:21:46,401 - handlers - INFO - Downloading image from: https://safebooru.org/images/4364/773b78193178c5db...
+2025-05-02 16:21:46,623 - handlers - INFO - Image downloaded successfully to: /tmp/tmphmnvee1w.jpg
+2025-05-02 16:21:47,818 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:21:47,837 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:31:45 UTC)" executed successfully
+2025-05-02 16:22:10,743 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:23:10 UTC)" (scheduled at 2025-05-02 16:22:10.740316+00:00)
+2025-05-02 16:22:11,227 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:23:10 UTC)" executed successfully
+2025-05-02 16:22:40,740 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:25:40 UTC)" (scheduled at 2025-05-02 16:22:40.740035+00:00)
+2025-05-02 16:22:42,823 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:22:42,824 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:22:42,826 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:25:40 UTC)" executed successfully
+2025-05-02 16:23:10,741 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:24:10 UTC)" (scheduled at 2025-05-02 16:23:10.740316+00:00)
+2025-05-02 16:23:11,250 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:24:10 UTC)" executed successfully
+2025-05-02 16:24:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:25:10 UTC)" (scheduled at 2025-05-02 16:24:10.740316+00:00)
+2025-05-02 16:24:11,253 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:25:10 UTC)" executed successfully
+2025-05-02 16:25:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:26:10 UTC)" (scheduled at 2025-05-02 16:25:10.740316+00:00)
+2025-05-02 16:25:11,207 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:26:10 UTC)" executed successfully
+2025-05-02 16:25:40,740 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:28:40 UTC)" (scheduled at 2025-05-02 16:25:40.740035+00:00)
+2025-05-02 16:25:42,850 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:25:42,851 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:25:42,851 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:28:40 UTC)" executed successfully
+2025-05-02 16:26:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:27:10 UTC)" (scheduled at 2025-05-02 16:26:10.740316+00:00)
+2025-05-02 16:26:11,185 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:27:10 UTC)" executed successfully
+2025-05-02 16:27:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:28:10 UTC)" (scheduled at 2025-05-02 16:27:10.740316+00:00)
+2025-05-02 16:27:11,193 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:28:10 UTC)" executed successfully
+2025-05-02 16:28:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:29:10 UTC)" (scheduled at 2025-05-02 16:28:10.740316+00:00)
+2025-05-02 16:28:11,211 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:29:10 UTC)" executed successfully
+2025-05-02 16:28:25,288 - miku_bot - INFO - Sent status message to user 1159603709
+2025-05-02 16:28:39,087 - miku_bot - INFO - Sent Miku image to user 1159603709
+2025-05-02 16:28:40,740 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:31:40 UTC)" (scheduled at 2025-05-02 16:28:40.740035+00:00)
+2025-05-02 16:28:42,699 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:28:42,699 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:28:42,699 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:31:40 UTC)" executed successfully
+2025-05-02 16:28:44,337 - miku_bot - INFO - Sent Miku fact to user 1159603709
+2025-05-02 16:28:46,566 - miku_bot - INFO - Sent Miku fact to user 1159603709
+2025-05-02 16:29:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:30:10 UTC)" (scheduled at 2025-05-02 16:29:10.740316+00:00)
+2025-05-02 16:29:11,216 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:30:10 UTC)" executed successfully
+2025-05-02 16:30:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:31:10 UTC)" (scheduled at 2025-05-02 16:30:10.740316+00:00)
+2025-05-02 16:30:11,240 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:31:10 UTC)" executed successfully
+2025-05-02 16:31:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:32:10 UTC)" (scheduled at 2025-05-02 16:31:10.740316+00:00)
+2025-05-02 16:31:11,240 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:32:10 UTC)" executed successfully
+2025-05-02 16:31:40,740 - apscheduler.executors.default - INFO - Running job "post_miku_image (trigger: interval[0:20:00], next run at: 2025-05-02 16:51:40 UTC)" (scheduled at 2025-05-02 16:31:40.739762+00:00)
+2025-05-02 16:31:40,740 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:31:40 UTC)" (scheduled at 2025-05-02 16:31:40.740035+00:00)
+2025-05-02 16:31:41,247 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/81ada6ea3c425959...
+2025-05-02 16:31:41,520 - handlers - INFO - Image downloaded successfully to: /tmp/tmpfgq3uuc6.jpg
+2025-05-02 16:31:42,752 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:31:42,753 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:31:42,753 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:34:40 UTC)" executed successfully
+2025-05-02 16:31:43,114 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:31:43,116 - apscheduler.executors.default - INFO - Job "post_miku_image (trigger: interval[0:20:00], next run at: 2025-05-02 16:51:40 UTC)" executed successfully
+2025-05-02 16:31:45,718 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:41:45 UTC)" (scheduled at 2025-05-02 16:31:45.716807+00:00)
+2025-05-02 16:31:46,219 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/e05a43badea96440...
+2025-05-02 16:31:46,441 - handlers - INFO - Image downloaded successfully to: /tmp/tmp12bkpb4r.jpg
+2025-05-02 16:31:47,878 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:31:47,890 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:41:45 UTC)" executed successfully
+2025-05-02 16:32:10,740 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:33:10 UTC)" (scheduled at 2025-05-02 16:32:10.740316+00:00)
+2025-05-02 16:32:11,192 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:33:10 UTC)" executed successfully
+2025-05-02 16:32:51,935 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2025-05-02 16:32:51,936 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-02 16:32:56,220 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:32:56,509 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:32:56,624 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:32:56,709 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:32:56,831 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:32:56,932 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:32:57,022 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:32:57,050 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:32:57,051 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:32:57,051 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:32:57,051 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:32:57,051 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:32:57,052 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:32:57,052 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:32:57,052 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:32:57,052 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:32:57,052 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:32:57,537 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:33:02,024 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:33:02 UTC)" (scheduled at 2025-05-02 16:33:02.022974+00:00)
+2025-05-02 16:33:02,768 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/cbe2a5ecc079444d...
+2025-05-02 16:33:03,015 - handlers - INFO - Image downloaded successfully to: /tmp/tmp6gopuxss.jpg
+2025-05-02 16:33:04,724 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:33:04,737 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:43:02 UTC)" executed successfully
+2025-05-02 16:33:23,538 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:33:23,884 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:33:24,008 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:33:24,104 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:33:24,232 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:33:24,342 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:33:24,417 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:33:24,444 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:24,444 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:24,444 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:24,445 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:24,445 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:33:24,445 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:33:24,445 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:33:24,445 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:33:24,445 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:33:24,446 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:33:24,938 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:33:29,418 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:33:29 UTC)" (scheduled at 2025-05-02 16:33:29.417616+00:00)
+2025-05-02 16:33:30,560 - handlers - INFO - Downloading image from: https://safebooru.org/images/521/5eca0e6f2ccf84ad5...
+2025-05-02 16:33:30,965 - handlers - INFO - Image downloaded successfully to: /tmp/tmpus0ltl7u.jpg
+2025-05-02 16:33:32,348 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:33:32,358 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:43:29 UTC)" executed successfully
+2025-05-02 16:33:34,567 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:33:34,847 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:33:34,953 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:33:35,044 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:33:35,174 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:33:35,278 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:33:35,366 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:33:35,396 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:35,398 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:35,399 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:35,399 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:33:35,399 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:33:35,399 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:33:35,400 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:33:35,400 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:33:35,400 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:33:35,400 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:33:35,894 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:33:40,369 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:33:40 UTC)" (scheduled at 2025-05-02 16:33:40.367046+00:00)
+2025-05-02 16:33:40,915 - handlers - INFO - Downloading image from: https://safebooru.org/images/4616/7a033c217fbb6cbe...
+2025-05-02 16:33:41,146 - handlers - INFO - Image downloaded successfully to: /tmp/tmp18duebww.jpg
+2025-05-02 16:33:42,568 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:33:42,579 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:43:40 UTC)" executed successfully
+2025-05-02 16:34:05,400 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:35:05 UTC)" (scheduled at 2025-05-02 16:34:05.399232+00:00)
+2025-05-02 16:34:05,887 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:35:05 UTC)" executed successfully
+2025-05-02 16:34:35,399 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:37:35 UTC)" (scheduled at 2025-05-02 16:34:35.398693+00:00)
+2025-05-02 16:34:37,186 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:34:37,186 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:34:37,186 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:37:35 UTC)" executed successfully
+2025-05-02 16:35:05,399 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:36:05 UTC)" (scheduled at 2025-05-02 16:35:05.399232+00:00)
+2025-05-02 16:35:05,840 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:36:05 UTC)" executed successfully
+2025-05-02 16:36:05,399 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:37:05 UTC)" (scheduled at 2025-05-02 16:36:05.399232+00:00)
+2025-05-02 16:36:05,956 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:37:05 UTC)" executed successfully
+2025-05-02 16:37:02,214 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:37:02,498 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:37:02,615 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:37:02,697 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:37:02,864 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:37:02,967 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:37:03,055 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:37:03,101 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:37:03,101 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:37:03,102 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:37:03,102 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:37:03,102 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:37:03,103 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:37:03,103 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:37:03,103 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:37:03,103 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:37:03,104 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:37:03,601 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:37:08,056 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:37:08 UTC)" (scheduled at 2025-05-02 16:37:08.055859+00:00)
+2025-05-02 16:37:08,402 - handlers - INFO - Downloading image from: https://safebooru.org/images/520/9a69c1a473e7271d4...
+2025-05-02 16:37:08,700 - handlers - INFO - Image downloaded successfully to: /tmp/tmpdrlpk99v.jpg
+2025-05-02 16:37:10,436 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:37:10,447 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:47:08 UTC)" executed successfully
+2025-05-02 16:37:33,106 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:38:33 UTC)" (scheduled at 2025-05-02 16:37:33.102671+00:00)
+2025-05-02 16:37:33,589 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:38:33 UTC)" executed successfully
+2025-05-02 16:38:03,102 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:41:03 UTC)" (scheduled at 2025-05-02 16:38:03.102294+00:00)
+2025-05-02 16:38:04,899 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:38:04,900 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:38:04,900 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:41:03 UTC)" executed successfully
+2025-05-02 16:38:33,103 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:39:33 UTC)" (scheduled at 2025-05-02 16:38:33.102671+00:00)
+2025-05-02 16:38:33,644 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:39:33 UTC)" executed successfully
+2025-05-02 16:39:07,948 - miku_bot - INFO - Sent help message to user 1159603709
+2025-05-02 16:39:33,103 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:40:33 UTC)" (scheduled at 2025-05-02 16:39:33.102671+00:00)
+2025-05-02 16:39:33,580 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:40:33 UTC)" executed successfully
+2025-05-02 16:39:40,751 - handlers - INFO - Downloading image from: https://safebooru.org/images/4352/69f4b2f6149da610...
+2025-05-02 16:39:41,529 - handlers - INFO - Image downloaded successfully to: /tmp/tmp2vzl0hxa.png
+2025-05-02 16:39:43,599 - handlers - ERROR - Error sending photo: Photo_invalid_dimensions
+2025-05-02 16:40:33,103 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:41:33 UTC)" (scheduled at 2025-05-02 16:40:33.102671+00:00)
+2025-05-02 16:40:33,685 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:41:33 UTC)" executed successfully
+2025-05-02 16:41:03,102 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:44:03 UTC)" (scheduled at 2025-05-02 16:41:03.102294+00:00)
+2025-05-02 16:41:04,990 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 16:41:04,992 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 16:41:04,993 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 16:44:03 UTC)" executed successfully
+2025-05-02 16:41:33,103 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:42:33 UTC)" (scheduled at 2025-05-02 16:41:33.102671+00:00)
+2025-05-02 16:41:33,606 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:42:33 UTC)" executed successfully
+2025-05-02 16:41:47,220 - api_clients - INFO - Reddit client initialized
+2025-05-02 16:41:47,529 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:41:47,649 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:41:47,746 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:41:47,886 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kczr5o
+2025-05-02 16:41:47,986 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd57ro
+2025-05-02 16:41:48,081 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 16:41:48,141 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:41:48,142 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:41:48,142 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:41:48,142 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 16:41:48,143 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 16:41:48,143 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 16:41:48,143 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 16:41:48,143 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 16:41:48,144 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 16:41:48,144 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 16:41:48,669 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 16:41:53,082 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:41:53 UTC)" (scheduled at 2025-05-02 16:41:53.081527+00:00)
+2025-05-02 16:41:53,581 - handlers - INFO - Downloading image from: https://safebooru.org/images/1031/b6e4af019d3e5b5f...
+2025-05-02 16:41:53,809 - handlers - INFO - Image downloaded successfully to: /tmp/tmpwpgf_p3a.jpg
+2025-05-02 16:41:53,819 - handlers - INFO - Image dimensions: 1567x1907
+2025-05-02 16:41:55,920 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 16:41:55,932 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 16:51:53 UTC)" executed successfully
+2025-05-02 16:42:18,143 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 16:43:18 UTC)" (scheduled at 2025-05-02 16:42:18.142855+00:00)
+2025-05-02 21:13:07,660 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:13:08,047 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:13:08,162 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:13:08,259 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 21:13:08,371 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:13:08,498 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:13:08,595 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 21:13:08,643 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:13:08,644 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:13:08,644 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:13:08,644 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:13:08,644 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:13:08,644 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:13:08,645 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:13:08,645 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:13:08,645 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:13:08,645 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:13:09,128 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:13:13,596 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:13:13 UTC)" (scheduled at 2025-05-02 21:13:13.595406+00:00)
+2025-05-02 21:13:14,291 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/6ab036c5d4378361...
+2025-05-02 21:13:14,900 - handlers - INFO - Image downloaded successfully to: /tmp/tmpa05nin51.jpg
+2025-05-02 21:13:14,935 - handlers - INFO - Image dimensions: 1191x1684
+2025-05-02 21:13:16,739 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:13:16,784 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:23:13 UTC)" executed successfully
+2025-05-02 21:13:38,645 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:14:38 UTC)" (scheduled at 2025-05-02 21:13:38.644524+00:00)
+2025-05-02 21:13:39,222 - reddit_tracker - ERROR - Error checking r/churchofmiku for new posts: received 404 HTTP response
+2025-05-02 21:13:39,222 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:14:38 UTC)" executed successfully
+2025-05-02 21:14:08,644 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:17:08 UTC)" (scheduled at 2025-05-02 21:14:08.644300+00:00)
+2025-05-02 21:14:09,136 - handlers - INFO - Downloading image from: https://i.redd.it/182zc3c9dfye1.jpeg...
+2025-05-02 21:14:09,276 - handlers - INFO - Image downloaded successfully to: /tmp/tmpvjaps9zn.jpg
+2025-05-02 21:14:09,277 - handlers - INFO - Image dimensions: 1440x1920
+2025-05-02 21:14:10,851 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:14:10,861 - scheduler - INFO - Posted Reddit content: 1kdadsg
+2025-05-02 21:14:10,861 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:17:08 UTC)" executed successfully
+2025-05-02 21:14:38,645 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:15:38 UTC)" (scheduled at 2025-05-02 21:14:38.644524+00:00)
+2025-05-02 21:14:39,209 - reddit_tracker - ERROR - Error checking r/churchofmiku for new posts: received 404 HTTP response
+2025-05-02 21:14:39,209 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:15:38 UTC)" executed successfully
+2025-05-02 21:15:38,112 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:15:38,389 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:15:38,517 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:15:38,607 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 21:15:38,728 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:15:38,845 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:15:38,937 - reddit_tracker - ERROR - Error initializing tracking for r/churchofmiku: received 404 HTTP response
+2025-05-02 21:15:38,981 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:15:38,983 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:15:38,983 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:15:38,983 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:15:38,984 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:15:38,984 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:15:38,984 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:15:38,985 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:15:38,985 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:15:38,985 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:15:39,472 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:15:43,939 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:15:43 UTC)" (scheduled at 2025-05-02 21:15:43.938497+00:00)
+2025-05-02 21:15:45,462 - handlers - INFO - Downloading image from: https://safebooru.org/images/4108/d93e2d8efeea4abd...
+2025-05-02 21:15:45,562 - handlers - INFO - Image downloaded successfully to: /tmp/tmpd0bry4lh.jpg
+2025-05-02 21:15:45,570 - handlers - INFO - Image dimensions: 755x1343
+2025-05-02 21:15:46,708 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:15:46,719 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:25:43 UTC)" executed successfully
+2025-05-02 21:16:08,985 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:17:08 UTC)" (scheduled at 2025-05-02 21:16:08.983843+00:00)
+2025-05-02 21:16:09,551 - reddit_tracker - ERROR - Error checking r/churchofmiku for new posts: received 404 HTTP response
+2025-05-02 21:16:09,552 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:17:08 UTC)" executed successfully
+2025-05-02 21:16:38,984 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:19:38 UTC)" (scheduled at 2025-05-02 21:16:38.983591+00:00)
+2025-05-02 21:16:41,297 - reddit_tracker - ERROR - Error getting batch posts from r/churchofmiku: received 404 HTTP response
+2025-05-02 21:16:41,297 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:16:41,298 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:19:38 UTC)" executed successfully
+2025-05-02 21:16:52,190 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:16:52,541 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:16:52,639 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:16:52,720 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:16:52,826 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:16:52,896 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:16:52,898 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:16:52,898 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:16:52,898 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:16:52,898 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:16:52,899 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:16:52,899 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:16:52,899 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:16:52,899 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:16:52,899 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:16:53,394 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:16:57,828 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:16:57 UTC)" (scheduled at 2025-05-02 21:16:57.827138+00:00)
+2025-05-02 21:16:59,294 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/a324f9ee7ca44626...
+2025-05-02 21:16:59,509 - handlers - INFO - Image downloaded successfully to: /tmp/tmpo0q_dveo.jpg
+2025-05-02 21:16:59,537 - handlers - INFO - Image dimensions: 2048x2046
+2025-05-02 21:17:00,958 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:17:00,969 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:26:57 UTC)" executed successfully
+2025-05-02 21:17:22,899 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:18:22 UTC)" (scheduled at 2025-05-02 21:17:22.898621+00:00)
+2025-05-02 21:17:23,366 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:18:22 UTC)" executed successfully
+2025-05-02 21:17:52,898 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:20:52 UTC)" (scheduled at 2025-05-02 21:17:52.898373+00:00)
+2025-05-02 21:17:55,381 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:17:55,385 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:20:52 UTC)" executed successfully
+2025-05-02 21:18:22,899 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:19:22 UTC)" (scheduled at 2025-05-02 21:18:22.898621+00:00)
+2025-05-02 21:18:23,390 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:19:22 UTC)" executed successfully
+2025-05-02 21:18:36,291 - miku_bot - INFO - Sent help message to user 1159603709
+2025-05-02 21:18:52,196 - miku_bot - INFO - Sent admin commands to user 1159603709
+2025-05-02 21:19:09,620 - miku_bot - INFO - Sent Miku fact to user 1159603709
+2025-05-02 21:19:11,898 - miku_bot - INFO - Sent Miku fact to user 1159603709
+2025-05-02 21:19:13,449 - miku_bot - INFO - Sent Miku fact to user 1159603709
+2025-05-02 21:19:22,899 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:20:22 UTC)" (scheduled at 2025-05-02 21:19:22.898621+00:00)
+2025-05-02 21:19:23,370 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:20:22 UTC)" executed successfully
+2025-05-02 21:20:22,899 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:21:22 UTC)" (scheduled at 2025-05-02 21:20:22.898621+00:00)
+2025-05-02 21:20:23,366 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:21:22 UTC)" executed successfully
+2025-05-02 21:20:52,898 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:23:52 UTC)" (scheduled at 2025-05-02 21:20:52.898373+00:00)
+2025-05-02 21:20:55,018 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:20:55,019 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:23:52 UTC)" executed successfully
+2025-05-02 21:21:11,784 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:21:12,064 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:21:12,179 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:21:12,287 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:21:12,398 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:21:12,434 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:21:12,434 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:21:12,435 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:21:12,435 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:21:12,435 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:21:12,435 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:21:12,436 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:21:12,436 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:21:12,436 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:21:12,436 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:21:12,916 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:21:17,398 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:21:17 UTC)" (scheduled at 2025-05-02 21:21:17.398348+00:00)
+2025-05-02 21:21:19,140 - handlers - INFO - Downloading image from: https://safebooru.org/images/1282/a1547cc43160ea9a...
+2025-05-02 21:21:19,339 - handlers - INFO - Image downloaded successfully to: /tmp/tmpakx4f_kt.jpg
+2025-05-02 21:21:19,347 - handlers - INFO - Image dimensions: 1836x2048
+2025-05-02 21:21:20,687 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:21:20,697 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:31:17 UTC)" executed successfully
+2025-05-02 21:21:42,436 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:22:42 UTC)" (scheduled at 2025-05-02 21:21:42.435324+00:00)
+2025-05-02 21:21:42,950 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:22:42 UTC)" executed successfully
+2025-05-02 21:22:12,435 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:25:12 UTC)" (scheduled at 2025-05-02 21:22:12.435040+00:00)
+2025-05-02 21:22:14,361 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:22:14,361 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:25:12 UTC)" executed successfully
+2025-05-02 21:22:28,597 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:22:28,890 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:22:29,016 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:22:29,127 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:22:29,257 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:22:29,315 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:22:29,315 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:22:29,316 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:22:29,316 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:22:29,316 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:22:29,317 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:22:29,317 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:22:29,317 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:22:29,317 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:22:29,317 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:22:29,802 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:22:34,258 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:22:34 UTC)" (scheduled at 2025-05-02 21:22:34.258144+00:00)
+2025-05-02 21:22:35,096 - handlers - INFO - Downloading image from: https://safebooru.org/images/521/998d7402472f80026...
+2025-05-02 21:22:35,294 - handlers - INFO - Image downloaded successfully to: /tmp/tmph7blf144.jpg
+2025-05-02 21:22:35,331 - handlers - INFO - Image dimensions: 1280x1280
+2025-05-02 21:22:36,583 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:22:36,584 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:32:34 UTC)" executed successfully
+2025-05-02 21:22:59,317 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:23:59 UTC)" (scheduled at 2025-05-02 21:22:59.316630+00:00)
+2025-05-02 21:22:59,773 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:23:59 UTC)" executed successfully
+2025-05-02 21:23:29,317 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:26:29 UTC)" (scheduled at 2025-05-02 21:23:29.316392+00:00)
+2025-05-02 21:23:31,054 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:23:31,054 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:26:29 UTC)" executed successfully
+2025-05-02 21:23:59,317 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:24:59 UTC)" (scheduled at 2025-05-02 21:23:59.316630+00:00)
+2025-05-02 21:23:59,820 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:24:59 UTC)" executed successfully
+2025-05-02 21:24:47,431 - api_clients - INFO - Reddit client initialized
+2025-05-02 21:24:47,703 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:24:47,845 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:24:47,964 - reddit_tracker - INFO - Initialized tracking for r/MikuNakano with post ID: 1kdadsg
+2025-05-02 21:24:48,056 - reddit_tracker - INFO - Initialized tracking for r/5ToubunNoHanayome with post ID: 1kd9xs5
+2025-05-02 21:24:48,105 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:24:48,106 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:24:48,106 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:24:48,106 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-02 21:24:48,106 - scheduler - INFO - Scheduler set up successfully
+2025-05-02 21:24:48,107 - apscheduler.scheduler - INFO - Added job "post_miku_fact" to job store "default"
+2025-05-02 21:24:48,107 - apscheduler.scheduler - INFO - Added job "post_miku_image" to job store "default"
+2025-05-02 21:24:48,107 - apscheduler.scheduler - INFO - Added job "post_reddit_miku" to job store "default"
+2025-05-02 21:24:48,107 - apscheduler.scheduler - INFO - Added job "check_new_reddit_posts" to job store "default"
+2025-05-02 21:24:48,107 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-02 21:24:48,601 - miku_bot - INFO - Bot started and polling for updates...
+2025-05-02 21:24:53,057 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:24:53 UTC)" (scheduled at 2025-05-02 21:24:53.056730+00:00)
+2025-05-02 21:24:54,384 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/17213aef23371e59...
+2025-05-02 21:24:54,636 - handlers - INFO - Image downloaded successfully to: /tmp/tmp4edpf3lu.jpg
+2025-05-02 21:24:54,645 - handlers - INFO - Image dimensions: 1396x2000
+2025-05-02 21:24:56,044 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:24:56,054 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:34:53 UTC)" executed successfully
+2025-05-02 21:25:18,108 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:26:18 UTC)" (scheduled at 2025-05-02 21:25:18.106761+00:00)
+2025-05-02 21:25:18,595 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:26:18 UTC)" executed successfully
+2025-05-02 21:25:48,107 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:28:48 UTC)" (scheduled at 2025-05-02 21:25:48.106527+00:00)
+2025-05-02 21:25:50,000 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:25:50,000 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:28:48 UTC)" executed successfully
+2025-05-02 21:26:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:27:18 UTC)" (scheduled at 2025-05-02 21:26:18.106761+00:00)
+2025-05-02 21:26:18,586 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:27:18 UTC)" executed successfully
+2025-05-02 21:27:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:28:18 UTC)" (scheduled at 2025-05-02 21:27:18.106761+00:00)
+2025-05-02 21:27:18,593 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:28:18 UTC)" executed successfully
+2025-05-02 21:28:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:29:18 UTC)" (scheduled at 2025-05-02 21:28:18.106761+00:00)
+2025-05-02 21:28:18,583 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:29:18 UTC)" executed successfully
+2025-05-02 21:28:48,107 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:31:48 UTC)" (scheduled at 2025-05-02 21:28:48.106527+00:00)
+2025-05-02 21:28:50,219 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:28:50,220 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:31:48 UTC)" executed successfully
+2025-05-02 21:29:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:30:18 UTC)" (scheduled at 2025-05-02 21:29:18.106761+00:00)
+2025-05-02 21:29:18,582 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:30:18 UTC)" executed successfully
+2025-05-02 21:30:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:31:18 UTC)" (scheduled at 2025-05-02 21:30:18.106761+00:00)
+2025-05-02 21:30:18,571 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:31:18 UTC)" executed successfully
+2025-05-02 21:31:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:32:18 UTC)" (scheduled at 2025-05-02 21:31:18.106761+00:00)
+2025-05-02 21:31:18,559 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:32:18 UTC)" executed successfully
+2025-05-02 21:31:48,107 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:34:48 UTC)" (scheduled at 2025-05-02 21:31:48.106527+00:00)
+2025-05-02 21:31:50,511 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:31:50,511 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:34:48 UTC)" executed successfully
+2025-05-02 21:32:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:33:18 UTC)" (scheduled at 2025-05-02 21:32:18.106761+00:00)
+2025-05-02 21:32:18,652 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:33:18 UTC)" executed successfully
+2025-05-02 21:33:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:34:18 UTC)" (scheduled at 2025-05-02 21:33:18.106761+00:00)
+2025-05-02 21:33:18,556 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:34:18 UTC)" executed successfully
+2025-05-02 21:34:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:35:18 UTC)" (scheduled at 2025-05-02 21:34:18.106761+00:00)
+2025-05-02 21:34:18,613 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:35:18 UTC)" executed successfully
+2025-05-02 21:34:48,106 - apscheduler.executors.default - INFO - Running job "post_miku_image (trigger: interval[0:20:00], next run at: 2025-05-02 21:54:48 UTC)" (scheduled at 2025-05-02 21:34:48.106277+00:00)
+2025-05-02 21:34:48,107 - apscheduler.executors.default - INFO - Running job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:37:48 UTC)" (scheduled at 2025-05-02 21:34:48.106527+00:00)
+2025-05-02 21:34:48,953 - handlers - INFO - Downloading image from: https://safebooru.org/images/519/92f2e22bbafa7cfab...
+2025-05-02 21:34:49,197 - handlers - INFO - Image downloaded successfully to: /tmp/tmp222_kdas.jpg
+2025-05-02 21:34:49,198 - handlers - INFO - Image dimensions: 2039x2039
+2025-05-02 21:34:49,945 - scheduler - INFO - No new Reddit posts to share at this time
+2025-05-02 21:34:49,945 - apscheduler.executors.default - INFO - Job "post_reddit_miku (trigger: interval[0:03:00], next run at: 2025-05-02 21:37:48 UTC)" executed successfully
+2025-05-02 21:34:50,663 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:34:50,664 - apscheduler.executors.default - INFO - Job "post_miku_image (trigger: interval[0:20:00], next run at: 2025-05-02 21:54:48 UTC)" executed successfully
+2025-05-02 21:34:53,058 - apscheduler.executors.default - INFO - Running job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:44:53 UTC)" (scheduled at 2025-05-02 21:34:53.056730+00:00)
+2025-05-02 21:34:54,644 - handlers - INFO - Downloading image from: https://safebooru.org/images/4619/18fe320db53eec1f...
+2025-05-02 21:34:55,125 - handlers - INFO - Image downloaded successfully to: /tmp/tmpije_tb35.jpg
+2025-05-02 21:34:55,125 - handlers - INFO - Image dimensions: 800x1227
+2025-05-02 21:34:56,011 - handlers - INFO - Successfully posted content to @Miku_nakano111
+2025-05-02 21:34:56,014 - apscheduler.executors.default - INFO - Job "post_miku_fact (trigger: interval[0:10:00], next run at: 2025-05-02 21:44:53 UTC)" executed successfully
+2025-05-02 21:35:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:36:18 UTC)" (scheduled at 2025-05-02 21:35:18.106761+00:00)
+2025-05-02 21:35:18,596 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:36:18 UTC)" executed successfully
+2025-05-02 21:36:18,107 - apscheduler.executors.default - INFO - Running job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:37:18 UTC)" (scheduled at 2025-05-02 21:36:18.106761+00:00)
+2025-05-02 21:36:18,563 - apscheduler.executors.default - INFO - Job "check_new_reddit_posts (trigger: interval[0:01:00], next run at: 2025-05-02 21:37:18 UTC)" executed successfully
